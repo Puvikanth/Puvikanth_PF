@@ -104,8 +104,8 @@ p{
 
 
 #profile_img{
-    height: 50%;
-    width: 50%;
+    height: 250px;
+    width: 250px;
     object-position: bottom;
     box-shadow: none;
     border-radius: 5px;
