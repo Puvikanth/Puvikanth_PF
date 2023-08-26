@@ -118,7 +118,7 @@ p{
 
 
 .box-2{
-    height: 140vh; 
+    height: auto; 
     /* background-color:  #297FBB; */
     background-color:  #1b6ea8;
     color: white;
