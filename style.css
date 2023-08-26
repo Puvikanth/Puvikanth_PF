@@ -81,7 +81,7 @@ img{
 
 .about_me{
     margin:2% 10%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .about_me>p{
     padding-bottom: 40px;
@@ -104,8 +104,8 @@ p{
 
 
 #profile_img{
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
     object-position: bottom;
     box-shadow: none;
     border-radius: 5px;
