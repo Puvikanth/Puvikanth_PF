@@ -211,7 +211,9 @@ p{
     border-radius: 5px;
 }
 
-
+.weather>img,.newyear_count>img,.tiktoctoe>img,.stopwatch>img,.Notes>img{
+   width: 100%;
+}
 
 /* ------------------------------------------------------ */
 
