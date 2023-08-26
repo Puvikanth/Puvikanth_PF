@@ -130,13 +130,16 @@ p{
     padding:0 0;
 }
 
+
 .education>*{
-    margin: 5% 10%;
+    margin: 20px 10%;
 }
 
 .education>.carousel{
-    margin: 5% 0;
+    margin: 10px 0;
 }
+
+
 
 
 /* ---------------------------------------- */
