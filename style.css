@@ -6,7 +6,7 @@ body{
     scroll-behavior: smooth;
 }
 
-p{
+p,ul>*{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
     font-family: 'Prompt', sans-serif;
