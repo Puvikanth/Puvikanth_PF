@@ -16,12 +16,12 @@ p,ul>*{
 
 a>i{
     font-size: 18px;   
+    text-shadow: #4e0f69 3px 3px 3px;
 }
 
-a>i:hover{
-    color: #0053a7;
+a>i:active,a>i:hover{
+    color: #a551c9;
 }
-
 
 .navbars{
     display: flex;
