@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@300&family=Prompt&family=Roboto&display=swap');
+
+
+body{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+a>i{
+    font-size: 18px;   
+}
+
+a>i:hover{
+    color: #0053a7;
+}
+
+
+.navbars{
+    display: flex;
+    justify-content: space-around;
+    background-color: #03315f;
+    color: white;
+    height: 8vh;
+    align-items: center;
+}
+
+.navbars>h2{
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 8px;
+    letter-spacing: 3px;
+}
+
+.icon>*{
+    color: white;
+    padding-right: 20px;
+}
+
+img{
+    box-shadow: black 2px 2px 10px 2px;
+}
+
+.carousel{
+    height: 70vh;
+    background-color: black;
+    /* box-shadow: black 1px 1px 5px 1px; */
+}
+.carousel-item{
+    object-fit: cover;
+}
+
+.carousel-item > img{
+    max-height: 70vh;
+    min-height: 70vh;
+    object-fit: cover;
+}
+
+#second>img{
+    width: 100%;
+    object-fit:fill;
+}
+
+/* -------------------------------- */
+
+ h2{
+    text-shadow: black 3px 3px 3px;
+    margin-bottom: 20px;
+}
+
+.navbars>h2{
+    margin-bottom: 0px;
+}
+
+
+.about_me{
+    margin:2% 10%;
+    margin-bottom: 10px;
+}
+.about_me>p{
+    padding-bottom: 40px;
+}
+
+
+
+p{
+    word-wrap: break-word;
+}
+
+/* ---------------------------------------------------------- */
+
+.box-1{
+    height: auto;
+    background-color: #8D44AD;
+    color: whitesmoke;
+}
+
+
+
+#profile_img{
+    height: 40%;
+    width: 40%;
+    object-position: bottom;
+    box-shadow: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+/* -------------------------------- */
+
+
+.box-2{
+    height: 140vh; 
+    /* background-color:  #297FBB; */
+    background-color:  #1b6ea8;
+    color: white;
+ 
+}
+
+.education{
+    margin: 5% 10%;
+}
+
+
+
+/* ---------------------------------------- */
+ .box-3{
+    height: 120vh;
+    /* background-color:  #27AE61; */
+    background-color:  #229c57;
+    color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Technical_skill{
+    margin: 0 10%;
+}
+
+.Technical_skill>h2,.main>h2{
+    text-shadow: black 1px 1px ;
+}
+
+
+#tech_img{
+    height: 70vh;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 10px 2px;
+}
+
+
+/* ---------------------------------------- */
+.box-4{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #16A086;
+    color: black;
+}
+
+.main{
+    margin: 0 10%;
+}
+
+
+.main>ul>li{
+    font-weight: 600;
+}
+
+
+
+/* ---------------------------------------- */
+
+
+.box-5{
+    background-color: #FFF7AF;
+    color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.front_end{
+    margin: 10% 10%;
+}
+
+
+.weather,.newyear_count,.tiktoctoe,.stopwatch,.Notes{
+
+    margin: 15% 0;
+    background-color: #900c3f;
+    border: #900c3f;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.weather>*,.newyear_count>*,.tiktoctoe>*,.stopwatch>*,.Notes>*{
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+/* ------------------------------------------------------ */
+
+.box-6{
+    background-color: #342056;
+    color: white;
+    padding: 10% 0;
+}
+
+.box-6>*{
+    margin: 2% 15%;
+}
+
+.box-6>.carousel{
+    object-position: center;
+    object-fit: cover;
+}
+
+
+/* ------------------------------------------------------ */
+.box-7{
+    width: 100%;
+    background-color: rgb(216, 3, 3);
+    color: white;
+
+}
+
+.box-7>*{
+    margin: 0 15%;
+}
+
+.certificate{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+/* ------------------------------------------------------ */
+
+
+.box-8{
+    background-color: rgb(0, 0, 177);
+    color: white;
+    height: 100vh;
+}
+
+.box-8>*{
+    margin: 0 15%;
+}
+
+.Resume{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* ------------------------------------------------------ */
+#address{
+    color: white;
+}
+
+li>i{
+    text-shadow: white 1px 0 0;
+}
+
+li{
+    list-style: none;
+}
+
+.box-9{
+    background-color: orange;
+    color: black;
+    height: 100vh;
+}
+
+.box-9>*{
+    margin: 0 15%;
+    font-weight: 500;
+}
+
+
+.contact_data{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* ------------------------------------------------------ */
+
+.box-10{
+    background-color: rgb(88, 57, 0);
+    color: white;
+    height: 100vh;
+    width: 120%;
+}
+
+.box-10>*{
+    margin: 0 14%;
+}
+
+.end{
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-11{
+    background-color: black;
+    height: 10%;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+
+
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10{
+    width: 100%;
+    padding: auto auto;
+} 
+
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* -------------------------------------------------------------- */
+
+.loader_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010118;
+    height: 100vh;
+    min-width:100%;
+    max-width:100%;
+    scroll-snap-type: none;
+}
+
+
+.loader{
+    width: 100px;
+    height: 100px;
+    animation: rotation 1s infinite linear;
+    background-color: #010118;
+    border-radius: 50%;
+    border-left-color:rgb(48, 48, 48) ;
+    border-right-color:rgb(48, 48, 48) ;
+    border-top-color:rgb(48, 48, 48) ;
+    border-bottom-color:rgb(0, 47, 255) ;
+    border-width: 8px;
+    border-style: solid;
+}
+
+.c1{
+    z-index: 1000;
+    position: fixed;
+}
+
+.c2{
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
