@@ -203,13 +203,13 @@ p{
 }
 
 .front_end{
-    margin: 10% 10%;
+    margin: 5% 10%;
 }
 
 
 .weather,.newyear_count,.tiktoctoe,.stopwatch,.Notes{
 
-    margin: 15% 0;
+    margin: 5% 0;
     background-color: #900c3f;
     border: #900c3f;
     color: white;
