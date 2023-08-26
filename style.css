@@ -122,13 +122,16 @@ p{
     /* background-color:  #297FBB; */
     background-color:  #1b6ea8;
     color: white;
- 
+    padding:0 0;
 }
 
-.education{
+.education>*{
     margin: 5% 10%;
 }
 
+.education>.carousel{
+    margin: 5% 0;
+}
 
 
 /* ---------------------------------------- */
