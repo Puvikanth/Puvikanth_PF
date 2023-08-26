@@ -146,7 +146,7 @@ p{
  .box-3{
     height: 120vh;
  
-    background-color:  yellow;
+    background-color:  #dddd25;
     color: black;
     display: flex; 
     align-items: center;
