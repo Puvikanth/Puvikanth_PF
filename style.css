@@ -226,8 +226,9 @@ p{
 }
 
 .box-6>.carousel{
-    object-position: center;
-    object-fit: cover;
+    object-position:top;
+    object-fit:contain;
+    margin:4% 0% ;
 }
 
 
