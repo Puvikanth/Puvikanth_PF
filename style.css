@@ -300,7 +300,7 @@ li>i{
 
 li{
     list-style: none;
-    padding:10px 10px;
+
 }
 
 .box-9{
@@ -310,7 +310,7 @@ li{
 }
 
 .box-9>*{
-    margin: 0 15%;
+    margin: 0 10%;
     font-weight: 500;
 }
 
