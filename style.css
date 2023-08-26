@@ -417,3 +417,12 @@ a:hover{
       transform: rotate(360deg);
     }
   }
+
+
+  .schooling>*{
+    list-style-type:circle;
+  }
+
+  .schooling>h5{
+    text-shadow: black 3px 3px 3px;
+  }
