@@ -102,7 +102,7 @@ p{
 
 .box-1{
     height: auto;
-    background-color: #8D44AD;
+    background-color: #a551c9;
     color: whitesmoke;
 }
 
@@ -125,7 +125,7 @@ p{
 .box-2{
     height: auto; 
     /* background-color:  #297FBB; */
-    background-color:  #1b6ea8;
+    background-color:  #287ebb;
     color: white;
     padding:0 0;
 }
@@ -145,7 +145,7 @@ p{
 /* ---------------------------------------- */
  .box-3{
     height: 120vh;
-    /* background-color:  #27AE61; */
+    /* background-color:  #d9ff00; */
     background-color:  #229c57;
     color: black;
     display: flex; 
@@ -176,7 +176,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  #16A086;
+    background-color:  #12b698;
     color: black;
 }
 
