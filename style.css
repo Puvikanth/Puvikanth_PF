@@ -144,7 +144,7 @@ p{
 
 /* ---------------------------------------- */
  .box-3{
-    height: 120vh;
+    min-height: 120vh;
  
     background-color:  #27AE61;
     color: black;
